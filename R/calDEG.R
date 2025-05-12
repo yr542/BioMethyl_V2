@@ -12,7 +12,7 @@
 #' @examples
 #' calDEG()
 
-calDEG_Y <- function(calExprOut, Sample_1, Sample_2, SaveOut = FALSE, OutFile){
+calDEG <- function(calExprOut, Sample_1, Sample_2, SaveOut = FALSE, OutFile){
   expr <- calExprOut
   sam1 <- as.vector(Sample_1)
   sam2 <- as.vector(Sample_2)
