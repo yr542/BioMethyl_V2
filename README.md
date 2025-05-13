@@ -1,5 +1,10 @@
 # BioMethyl R package
 
+## Changes From Original BioMethyl
+
+There was a small issue preventing the calDEG from working. I made a small change to the code to make it work. No major changes made.
+
+
 ## Introduction
 [BioMethyl](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz137/5364266) is an R package for Biological interpretation of DNA methylation data in the TCGA cancers context. 
 For each cancer type, we trained linear regression models for each gene to calculate the associations between its gene expression and its covered CpG sites and recorded the associations (weights) in our BioMethyl.
